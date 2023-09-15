@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite seu nome" required>
+        </div>
+        <div>
+            <label for="idade">Idade:</label>
+            <input type="number" id="idade">
+        </div>
+        <div>
+            <label for="data">Data de Nascimento:</label>
+            <input type="date" id="data">
+        </div>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="Digite seu email">
+        </div>
+        <p>Escolaridade:</p>
+        <div>
+            <input type="radio" id="opcao1" name="escolaridade">
+            <label for="opcao1">Fundamental Incompleto</label>
+        </div>
+        <div>
+            <input type="radio" id="opcao2" name="escolaridade">
+            <label for="opcao2">Fundamental Completo</label>
+        </div>
+        <div>
+            <input type="radio" id="opcao3" name="escolaridade">
+            <label for="opcao3">Ensino Médio Incompleto</label>
+        </div>
+        <div>
+            <input type="radio" id="opcao4" name="escolaridade">
+            <label for="opcao4">Ensino Médio Completo</label>
+        </div>
+        <div>
+            <label for="curso">Você deseja cursar?</label>
+            <select name="turma" id="turma">
+                <option disabled selected>Selecione...</option>
+                <option value="Inf">Técnico de Informática</option>
+                <option value="Enf">Técnico de Enfermagem</option>
+                <option value="AprH">Regular com Aprofundamento em Humanas</option>
+                <option value="AprE">Regular com Aprofundamento em Exatas</option>
+            </select>
+        </div>
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
